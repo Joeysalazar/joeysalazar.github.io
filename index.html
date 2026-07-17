@@ -1,76 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Joey Salazar | Portfolio</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 2rem auto;
-      max-width: 700px;
-      padding: 0 1rem;
-      background-color: #f9f9f9;
-    }
-    h1 {
-      color: #333;
-    }
-    a {
-      color: #1e90ff;
-      text-decoration: none;
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-  </style>
+  <meta name="description" content="Joey Salazar portfolio showcasing software projects, web development, and creative digital work.">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Joey Salazar</h1>
-  <p><strong>Computer Science Student @ University of Oregon</strong></p>
+  <header class="hero">
+    <nav class="nav">
+      <h1>Joey Salazar</h1>
 
-  <section>
-    <h2>Technical Skills</h2>
-    <ul>
-      <li>Languages: C, Python, Java, HTML, CSS</li>
-      <li>Tools: Git, VS Code, Docker, Flask</li>
-      <li>Concepts: Data Structures, Cryptography, Web Development</li>
-    </ul>
-  </section>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="mailto:salazardigitalstudio@gmail.com">Contact</a>
+      </div>
+    </nav>
 
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <a href="https://github.com/Joeysalazar/Unreal-demo" target="_blank">
-          Unreal Demo
-        </a> – A basic prototype built using Unreal Engine for a side-scrolling game concept.
-      </li>
-    </ul>
-  </section>
+    <section class="hero-content">
+      <p class="eyebrow">Computer Science Graduate</p>
 
-  <section>
-    <h2>Contact & Links</h2>
-    <ul>
-      <li>
-        <a href="https://www.linkedin.com/in/joey-salazar-04305135b" target="_blank">
-          LinkedIn
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/JoeySalazar" target="_blank">
-          GitHub
-        </a>
-      </li>
-      <li>
-        <a href="resume.pdf" target="_blank">
-          Résumé (PDF)
-        </a>
-      </li>
-    </ul>
-  </section>
+      <h2>Websites, software tools, and clean digital projects.</h2>
+
+      <p>
+        I build practical web apps, local business websites, and database-backed tools
+        with a focus on clean design, usability, and real-world problem solving.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn secondary" href="mailto:salazardigitalstudio@gmail.com">Contact Me</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="projects" class="section">
+      <h2>Featured Projects</h2>
+
+      <p class="section-intro">
+        A small selection of projects showing my experience with web development,
+        software design, databases, and client-style work.
+      </p>
+
+      <div class="project-grid two-projects">
+        <article class="project-card">
+          <p class="project-label">Team Project</p>
+
+          <h3>Duck Space</h3>
+
+          <p>
+            A campus space guide built with Flask, SQLAlchemy, and SQLite. The app helps
+            students browse facilities, view rules and hours, check group-size guidance,
+            and interact with database-backed facility information.
+          </p>
+
+          <p>
+            My work focused on UI/API integration, connecting frontend features to backend
+            data, improving the user flow, and helping shape the final demo experience.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>SQLAlchemy</span>
+            <span>SQLite</span>
+            <span>Team Project</span>
+          </div>
+
+          <a href="https://github.com/Joeysalazar/CS422-DuckSpace" target="_blank" rel="noopener noreferrer">
+            View Project
+          </a>
+        </article>
+
+        <article class="project-card">
+          <p class="project-label">Client-Style Website</p>
+
+          <h3>3 Monkeys Building & Remodeling</h3>
+
+          <p>
+            A local business website project for a Southern Oregon remodeling company.
+            The site focuses on services, branding, project photos, customer trust,
+            and a clear path for visitors to contact the business.
+          </p>
+
+          <p>
+            My work included layout planning, responsive page styling, content structure,
+            gallery organization, contact flow, and visual polish for a small business brand.
+          </p>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+            <span>Client Work</span>
+          </div>
+
+          <a href="https://3monkeysbuildingandremodeling.com/" target="_blank" rel="noopener noreferrer">
+            View Website
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="about-grid">
+        <div class="about-copy">
+          <p class="eyebrow">About / Skills / Contact</p>
+
+          <h2>Recent CS graduate building useful, clean digital work.</h2>
+
+          <p>
+            I recently graduated with a Computer Science degree from the University of Oregon.
+            I enjoy building practical software, polished websites, database-backed tools,
+            and creative digital projects.
+          </p>
+
+          <p>
+            I am currently focused on improving my portfolio, building local business websites,
+            and preparing for software, web development, and entry-level tech opportunities.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:salazardigitalstudio@gmail.com">Email</a>
+            <a href="https://github.com/Joeysalazar" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/joey-salazar-04305135b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+
+          <p class="contact-email">
+            salazardigitalstudio@gmail.com
+          </p>
+        </div>
+
+        <aside class="skills-card">
+          <h3>Skills</h3>
+
+          <p><strong>Languages:</strong> Python, JavaScript, HTML, CSS, SQL, Java, C#</p>
+          <p><strong>Tools:</strong> Flask, SQLAlchemy, Git, GitHub, SQLite, PostgreSQL, VS Code</p>
+          <p><strong>Focus:</strong> Web development, databases, UI cleanup, software tools, small business websites</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Joey Salazar. Built with GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
